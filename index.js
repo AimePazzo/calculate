@@ -14,4 +14,7 @@ function calculate() {
         document.getElementById('display').value = 'Error';
     }
 }
+function Add (){
+    
+}
 // this calculate uses eval function
