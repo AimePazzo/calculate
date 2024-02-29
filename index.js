@@ -15,20 +15,6 @@ function calculate(){
             return parseInt(result[0]) + parseInt(result[1]);
             }
             
-            else if(document.getElementById("display").value.includes("-")){
-            result = document.getElementById("display").value.split('-');
-            return parseInt(result[0]) - parseInt(result[1]);
-            }
-            
-            else if(document.getElementById("display").value.includes("/")){
-            result = document.getElementById("display").value.split('/');
-            return parseInt(result[0]) / parseInt(result[1]);
-            }
-            
-            else{
-            result = document.getElementById("display").value.split('*');
-            return answer =  parseInt(result[0]) * parseInt(result[1]);
-            }
     } catch (error) {
         document.getElementById('display').value = 'Error';
     }
