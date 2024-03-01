@@ -6,7 +6,6 @@ h2{
     color: #ffffff;
     margin-top: 5rem;
     font-size: 1.5rem;
-    
 }
 body{
     display: flex;
@@ -37,7 +36,6 @@ color: #ffffff;
 .active{
     background-color: rgb(249, 249, 251);
     border: none;
-    
 }
 input[type="button"] {
     width: 50px;
